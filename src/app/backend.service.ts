@@ -11,7 +11,7 @@ export class BackendService {
   adminStatus:boolean=false
   status:boolean=false
   user!:User;
-  private url='https://movieui.azurewebsites.net/api/v1/moviebooking';
+  private url='https://movieappkavin.azurewebsites.net/api/v1/moviebooking';
 
   constructor(private httpClient:HttpClient) { }
 
